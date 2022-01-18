@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+  }
+  ul li a{
+   text-transform: capitalize;
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+  }
+  ul li a:hover{
+    color: red!important;
+    background:greenyellow;
+    display:inline-block;
+    border: 1px ;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 2px;
+    transition: 0.5s;
+  }
+  .contact-us h1{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .form-check{
+    margin-left: 20px;
+  }
+  .form-control{
+    padding-left: 10px;
+  }
+  .name{
+    margin-left: 10px;
+  }
+  .btn{
+    padding: 5px 10px;
+    font-size: medium;
+    font-weight: 500;
+  }

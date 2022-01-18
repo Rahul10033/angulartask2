@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.images{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+ background-repeat: no-repeat;
+}
+.visit{
+    font-weight: bold;
+    font-size: 30px;
+}
+.enjoy{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+ul li a{
+   text-transform: capitalize;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 500;
+   color: red;
+}
+ul li a:hover{
+    color: red!important;
+    background:greenyellow;
+    display:block;
+    border: 1px ;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+.about-us h1{
+    font-size: 50px;
+    font-weight: bold;
+  }
+.tourism{
+    font-size: 35px;
+    font-weight: bold;
+} 
+.profile{
+    font-size: 35px!important;
+    font-weight: bold!important; 
+}
+.btn{
+    padding: 5px 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+.p-tour{
+    color: darkred;
+    font-size: medium;
+    font-weight: 600;
+    font-family: ui-sans-serif;
+    text-transform: capitalize;
+   }
+   .p-profile{
+    font-size: medium;
+    font-weight: 700;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: midnightblue;
+    }

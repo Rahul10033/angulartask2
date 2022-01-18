@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ourservices{
+    padding: 80px 0px 60px;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rowsetting{
+  margin: 80px 0px !important;
+}
+.rowsetting p{
+    padding: 10px;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.rowsetting a{
+  text-decoration: none;
+  color: white;
+}
+.rowsetting a:hover{
+  color: black;
+}
+.imgsetting{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.fa-plane{
+   margin-top: 50px;
+}
+.fa-bus{
+    margin-top: 50px;
+}
+.fa-train{
+    margin-top: 50px;
+}
+ul li a{
+   text-transform: capitalize;
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+}
+ul li a:hover{
+    color: red!important;
+    background:greenyellow;
+    display:inline-block;
+    border: 1px ;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+.flight{
+    color: darkblue;
+    font-family: ui-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.bus{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.train{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: fangsong;
+    color: crimson;
+}
+.p-plane{
+    color: blue;
+    font-size: medium;
+    font-weight: 600;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+.p-bus{
+    text-transform: capitalize;
+    font-size: medium;
+    font-weight: 600;
+    font-family: serif;
+    color: chocolate;
+}
+.p-train{
+    text-transform: capitalize;
+    font-size: medium;
+    font-weight: 700;
+    font-family: ui-sans-serif;
+    color: firebrick;
+}
